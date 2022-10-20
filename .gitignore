@@ -1,0 +1,4 @@
+*.bat
+data/
+auterior/__pycache__
+update_old_hors.py
