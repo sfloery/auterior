@@ -4,14 +4,27 @@
 ## Installation
 
 ## Usage 
-### calculate_terrain_horizons.py
+### calc_terhor.py
+```
+calc_terhor.py
+```
 
-### describe_terrain_horizons.py
+### desc_terhor.py
+```
+desc_terhor.py 
+```
 
-### coarse_orientation.py
+### coarse.py
+```
+coarse.py 
+```
 
-### spatial_resection.py
+### spatres.py
+```
+spatres.py 
+```
 
 ## Cite
 
 ## ToDo
+- [ ] Demo dataset
