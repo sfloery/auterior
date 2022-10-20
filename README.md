@@ -2,6 +2,7 @@
 **AU**tomatic **TER**restrial **I**mage **OR**ienation based on the visible horizon in images. 
 
 ## Installation
+Coming soon.
 
 ## Usage 
 First we need to calculate the terrain horizons
