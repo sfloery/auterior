@@ -34,7 +34,7 @@ if __name__ == "__main__":
     
     parser = argparse.ArgumentParser()
         
-    parser.add_argument('-coarse_path', type=str, required=True, help="Path to the image containing the horizon.")
+    parser.add_argument('-coarse_path', type=str, required=True, help="Path to *.hdf5 containing the results of the coarse orientation.")
     parser.add_argument('-ransac_thresh', type=float, default=10, required=False, help="Threshold in px to consider points as inliers.")
     parser.add_argument('-dx_lim', type=float, default=1, required=False, help="Limit in degrees speciyfing width for considering potential pairs.")
     
