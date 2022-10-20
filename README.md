@@ -4,7 +4,7 @@
 ## Installation
 
 ## Usage 
-First we need to calculate the terrain horizons:
+First we need to calculate the terrain horizons
 ```
 calc_terhor.py
   -h
@@ -27,8 +27,7 @@ desc_terhor.py
   -s            Step width between horizon parts in °.
   -n            Number of sampling points for each horizon part.
 ```
-
-After that its possible to estimate the coarse orientation using
+After that its possible to estimate the coarse orientation based on a provided image horizon using
 ```
 coarse.py 
   -hdf_path     Path to the *.hdf5 file containing the terrain horizon features created using desc_terhor.py
@@ -38,8 +37,7 @@ coarse.py
   -dir_bin      Bin size used for direction counting.
   -topn         Topn candidates kept for each HFOV which will be further used in the spatial resection.
 ```
-
-and calculate the final spatial resection with
+and calculate the spatial resection with
 ```
 spatres.py 
   -coarse_path    Path to *.hdf5 containing the results of the coarse orientation created using coarse.py
@@ -70,9 +68,6 @@ The result of spatres.py is a csv with the following attributes:
 | P3P_ERR  | Reprojection erroro [px]  |
 | MM_IMG  | Image coordinates (row,col) of the inliers |
 | MM_OBJ  | Object coordinates (E,N,H) of the inliers |
-
-
-
 
 ## Cite
 
